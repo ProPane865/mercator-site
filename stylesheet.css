@@ -6,7 +6,7 @@ body {
 }
 
 .banner {
-	background: url(banner.png);
+	background: url(banners/banner.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 110vh;
@@ -223,7 +223,7 @@ body {
 }
 
 #container-crafting {
-	background: url(banner2.png);
+	background: url(banners/banner2.png);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: "100% 100%";
