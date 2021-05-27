@@ -46,17 +46,21 @@ body {
 .main3 {
 	padding: 50px;
 	margin: 0px;
-	background: #FC0;
-	color: #000;
+	background: #0b1e40;
+	color: #FFF;
 	font-size: 36px;
 	text-align: center;
+}
+
+.main3 a {
+	color: #FFF;
 }
 
 .main4 {
 	padding: 50px;
 	margin: 0px;
-	background: #699;
-	color: #FFF;
+	background: #d6b37e;
+	color: #000;
 	font-size: 36px;
 	text-align: center;
 }
@@ -64,7 +68,7 @@ body {
 .main5 {
 	padding: 50px;
 	margin: 0px;
-	background: #666;
+	background: #51591c;
 	color: #fff;
 	font-size: 36px;
 	text-align: center;
