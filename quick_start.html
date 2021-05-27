@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Official Mercator Earth Server</title>
+
+<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<div class="container">
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="quick_start.html">Quick Start Guide</a>
+      <div class="dropdown">
+            <button class="dropbtn">Information</button>
+            <div class="dropdown-content">
+                <a href="rules.html">Rules</a>
+                <a href="http://mercatorearth.ddns.net:8123">Dynmap</a>
+                <a href="crafting_recipes.html">Crafting Recipes</a>
+            </div>
+        </div>
+        
+      <div class="dropdown">
+            <button class="dropbtn">Social Media</button>
+            <div class="dropdown-content">
+                <a href="https://discord.gg/a2Mptr2MEF">Discord   <img class="middle" src="banners/discord.webp" width="32" height="32" /></a>
+          </div>
+      </div>
+  </div>
+  
+  <div id="qs-intro">
+    <p>&nbsp;</p>
+          <h1 style="text-align: center; font-size: 60px;">Quick Start Guide </h1>
+      <h3>Welcome to <strong>Mercator</strong>! Your main goal in this server is to create or join a nation and make it become the most powerful nation.</h3>
+  </div>
+  
+  <div id="qs-earlygame">
+  	  <h1>Early Game</h1>
+      <p>To start, you need to walk into one of the seven portals in spawn that will take you to each of the seven continents in the world. When you spawn, you find resources by cutting down trees, building mines, etc... Gold is the main currency in this server and with gold, you can trade with other people, buy plots, and even build nations.</p>
+      <p>If you would like to teleport back to the lobby, please use the command <strong>/mvtp lobby</strong></p>
+  </div>
+  
+  <div id="qs-towns">
+    <h1>Creating/Managing a Town</h1>
+      
+      <p>Once you have acquired 32 gold, you are ready to claim your first town block, which can be done using <strong>/t new &lt;town name&gt;</strong>. The first chunk that you claim using this command will become your homeblock.</p>
+      <p>You may also choose to expand a town with <strong>/t claim</strong> (if you are a mayor or assistant). If you wish to change your homeblock to a newly claimed chunk, please use the command <strong>/t set homeblock</strong> when you are standing on top of the chunk that you want to set as a homeblock.</p>
+      <p>If you feel that your town cannot meet the upkeep fee*, or for any other reason, you can also delete your town using <strong>/t delete &lt;your town name&gt;</strong>.</p>
+      <p>If you would like to  invite a player to your town, you may use the command <strong>/t add &lt;username&gt;</strong>. This will invite the other player, and if  they accept the invite, they will be able to join the town. Conversely, if you  would like to remove a member from your town, you may do <strong>/t kick &lt;username&gt;</strong>.</p>
+      <p>f a player would like to  join a town, they must use <strong>/t join  &lt;town name&gt;</strong>.</p>
+      <p>If you would like to be teleported back to  your town if you got lost, you may use the command <br />
+      <strong>/t  spawn</strong> to teleport back to spawn.</p>
+      <p>As a mayor, if you would like to deposit money into your  town bank (will be used for upkeep and expanding your town), then you may do so  by using the command <strong>/t deposit  &lt;amount of gold&gt;</strong>. Alternatively, if you would like to withdraw money  from your town bank, then you may do so using <strong>/t withdraw &lt;amount of gold&gt;</strong>.</p>
+      <p>If you are a mayor who wishes to change  certain permissions of a town, you may do so using <br />
+        <strong>/t  toggle &lt;option&gt;<br />
+        <br />
+      </strong>The possible options are:</p>
+      <ul>
+        <li>Explosions (explosion)</li>
+        <li>Fire Spreads (fire)</li>
+        <li>Mob Spawning (mobs)</li>
+        <li>PvP Enabled (pvp)</li>
+        <li>Tax Rate (taxpercent)</li>
+        <li>Open (open)</li>
+    </ul>
+      <p>*Towns that do not have enough money to meet  the upkeep fee will fall into debt. When the debt cap of 20 gold is reached,  the town will fall into ruins. The current upkeep fee per real-life day is 1  gold.</p>
+      <p>Additional commands can  be found <a href="https://github.com/TownyAdvanced/Towny/wiki/Towny-Commands">here</a>, but the essential commands are listed in  this quick start guide.</p>
+  </div>
+  
+  <div id="qs-plots">
+    <h1>Plot Management</h1>
+  	  <p>Each chunk claimed by a town can be registered  as a plot. By default, all of the plots are owned by the mayor, and they can be  put up for sale.<br />
+        <br />
+If you own a plot, and you would like to sell it, use <strong>/plot fs &lt;amount of gold&gt;</strong>. If you have decided not to sell  your plot, use the command <strong>/plot nfs</strong>.</p>
+      <p>If you would like to set the permissions of  your plot, you may use the command <strong>/plot  perm &lt;group&gt; &lt;permission&gt; &lt;on/off&gt;</strong>. If you would like to  set the permissions of ALL of your owned plots, you may instead use <strong>/resident set perm &lt;group&gt;  &lt;permission&gt; &lt;on/off&gt;</strong>.<br />
+        <br />
+        The possible groups are:</p>
+      <ul>
+        <li>Friend</li>
+        <li>Resident</li>
+        <li>Ally</li>
+        <li>Outsider</li>
+    </ul>
+    <p>The possible permissions are:</p>
+      <ul>
+        <li>Build</li>
+        <li>Destroy</li>
+        <li>Switch</li>
+        <li>Itemuse</li>
+      </ul>
+      <p>Additional commands can  be found <a href="https://github.com/TownyAdvanced/Towny/wiki/Towny-Commands">here</a>.</p>
+  </div>
+  
+  <div id="qs-nations">
+    <h1>Creating/Managing a Nation</h1>
+  	  <p>If you have at least 192 gold in your town  bank, you may create a nation using the command<br />
+      <strong>/n new  &lt;nation name&gt;</strong>.</p>
+      <p>If you feel that you cannot handle your nation*,  then please use the command<br />
+        <strong>/n  delete &lt;your nation name&gt;</strong>.</p>
+      <p>If you would like to view the stats of a  nation, please use the command <strong>/n &lt;nation  name&gt;</strong>.</p>
+      <p>To invite a town to your nation, you must use  the command <strong>/n add &lt;town name&gt;</strong>.  Alternatively, if you would like to remove a town from your nation, you must  use the command <br />
+        <strong>/n kick  &lt;town name&gt;</strong>.<br />
+        <br />
+        If a leader of a nation would like to deposit money into the nation bank, they  may do so using the command <strong>/n deposit  &lt;amount&gt;</strong>. Alternatively, they may withdraw money from the nation bank  using <strong>/n withdraw &lt;amount&gt;</strong>.</p>
+      <p>If you would like to set the capital of your  nation, you may use the command </p>
+    <p><strong>/n set  capital</strong> <strong>&lt;town&gt;</strong>. This will make the town the capital, and it will also  make its mayor the leader of the nation. If you would only like to set the  leader, but not the capital, you may do so using the command <strong>/n set king &lt;resident&gt;</strong>.</p>
+      <p>*Nations that do not meet the upkeep fee of 20 gold (per real-life day) will be disbanded, leaving all of the contained towns isolated.<br />
+      <br />
+Additional commands can be found <a href="https://github.com/TownyAdvanced/Towny/wiki/Towny-Commands">here</a>.  </p>
+  </div>
+  
+  <div id="qs-shops">
+  	  <h1>Creating/Using Shops</h1>
+  	  <p>To create a shop, hold the item you want to sell, click on an empty chest that you have placed, and it will prompt you asking what price you want to sell your item. Once you have entered a price, the chest will become a shop.</p>
+  	  <p>If you would like to change the mode of a shop from selling to buying, you may use the command <strong>/qs buy</strong> when looking at your shop. Alternatively, if you would like to change the shop back to sell mode, you may use the command<strong> /qs sell</strong>.</p>
+  	  <p>If you would like to add staff that manage your shop, you may do so using the command <strong>/qs staff add &lt;player&gt;</strong>. If you would like to remove staff members from your shop, you can use the command <strong>/qs staff remove &lt;player&gt;</strong>. If you want to remove all members from your shop, you can use the command <strong>/qs staff clear</strong>. If you would like a list of staff for your shop, you can use the command <strong>/qs staff list</strong>.</p>
+  	  <p>If you are buying something and would like to find a shop that is selling the item you want, you may search for it using the command <strong>/qs find &lt;item&gt;</strong>.</p>
+    <p>More commands can be found <a href="https://www.spigotmc.org/resources/quickshop-reremake-1-16-ready-multi-currency.62575/">here</a>.  </p>
+  </div>
+  
+  <div id="qs-qr">
+    <h1>Quick Reference Commands</h1>
+  	  <p><strong>/t new  &lt;town name&gt; </strong>(to create a town)<br />
+  	    <strong>/t  claim </strong>(used to claim plots around your already owned  plots… can only be done by mayors or assistants)<br />
+  	    <strong>/t  delete &lt;your town name&gt; </strong>(to delete your town)<br />
+  	    <strong>/t  &lt;town name&gt; </strong>(to view info about your town)<br />
+  	    <strong>/t add  &lt;username&gt; </strong>(to invite someone to your town)<br />
+  	    <strong>/t kick  &lt;username&gt; </strong>(to kick someone from your town)<br />
+  	    <strong>/t set  homeblock </strong>(changes your town&rsquo;s homeblock)<br />
+  	    <strong>/t  spawn </strong>(to teleport to your town&rsquo;s spawn)<br />
+  	    <strong>/t  deposit &lt;amount of gold&gt; </strong>(to deposit gold into  your town bank)<br />
+  	    <strong>/t  withdraw &lt;amount of gold&gt; </strong>(to withdraw gold from  your town bank)<br />
+  	    <strong>/t  toggle &lt;option&gt;</strong> (toggles options in a town)<br />
+  	    <strong>/plot  fs &lt;amount of gold&gt; </strong>(to put that certain chunk  up for sale)<br />
+  	    <strong>/plot  nfs </strong>(if you want to take it off the market)<br />
+  	    <strong>/plot  perm &lt;group&gt; &lt;permission&gt; &lt;on/off&gt;</strong> (set the permissions of your plot)<br />
+  	    <strong>/resident  set perm &lt;group&gt; &lt;permission&gt; &lt;on/off&gt; </strong>(set the permissions of all of your plots)<br />
+  	    <strong>/n new  &lt;nation name&gt;</strong> (creates a nation)<br />
+  	    <strong>/n  delete &lt;nation name&gt;</strong> (deletes a nation)<br />
+  	    <strong>/n  &lt;nation name&gt;</strong> (view the stats of a nation)<br />
+  	    <strong>/n add  &lt;town name&gt;</strong> (invites a town to a nation)<br />
+  	    <strong>/n kick  &lt;town name&gt;</strong> (kicks a town from a nation)<br />
+  	    <strong>/n  deposit &lt;amount&gt;</strong> (leader command to deposit  money into the national bank)<br />
+  	    <strong>/n  withdraw &lt;amount&gt;</strong> (leader command to withdraw  money from the national bank)<br />
+  	    <strong>/n set  capital &lt;town&gt;</strong> (changes the capital of a nation  to the specified town, and makes the mayor the nation leader)<br />
+      <strong>/n set  king &lt;resident&gt;</strong> (promotes a member to become  leader of the nation)<br />
+  	  <strong>/mvtp lobby</strong> (teleports the player to the lobby)<br />
+  	  <strong>/qs buy </strong>(switches a shop from sell mode to buy mode)<br />
+  	  <strong>/qs sell</strong> (switches a shop from buy mode to sell mode)<br />
+  	  <strong>/qs find &lt;item&gt; </strong>(finds the nearest shop that sells the specified item)<br />
+  	  <strong>/qs staff add &lt;player&gt;</strong> (adds a player as a staff member for your shop)<strong><br />
+  	  /qs staff remove &lt;player&gt;</strong> (removes a staff member from your shop)<strong><br />
+  	  /qs staff clear</strong> (removes all staff members from your shop)<strong><br />
+  	  /qs staff list</strong> (lists the current staff members in your shop)</p>
+  	  <p>&nbsp;</p>
+  	  <p> <strong><br />
+      </strong></p>
+  </div>
+
+  <div class="copyright">
+      <p>Copyright © 2021, Mercator Team</p>
+  </div>
+  
+</div>
+</body>
+</html>

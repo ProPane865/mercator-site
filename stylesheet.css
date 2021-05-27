@@ -228,3 +228,47 @@ body {
 	background-attachment: fixed;
 	background-size: "100% 100%";
 }
+
+#qs-intro {
+	text-align: center;
+	border-bottom: 2px solid #d1d1d1;
+	background: url(banners/banner2.png);
+	background-position: center;
+	color: white;
+}
+
+#qs-earlygame {
+	padding: 15px;
+	margin: 0px;
+	border-bottom: 2px solid #d1d1d1;
+}
+
+#qs-towns {
+	padding: 15px;
+	margin: 0px;
+	border-bottom: 2px solid #d1d1d1;
+}
+
+#qs-plots {
+	padding: 15px;
+	margin: 0px;
+	border-bottom: 2px solid #d1d1d1;
+}
+
+#qs-nations {
+	padding: 15px;
+	margin: 0px;
+	border-bottom: 2px solid #d1d1d1;
+}
+
+#qs-shops {
+	padding: 15px;
+	margin: 0px;
+	border-bottom: 2px solid #d1d1d1;
+}
+
+#qs-qr {
+	padding: 15px;
+	margin: 0px;
+	border-bottom: 2px solid #d1d1d1;
+}
