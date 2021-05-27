@@ -242,37 +242,45 @@ body {
 }
 
 #qs-earlygame {
-	padding: 15px;
-	margin: 0px;
-	border-bottom: 2px solid #d1d1d1;
+	margin: 15px;
+	border-bottom: 1px solid #d1d1d1;
 }
 
 #qs-towns {
-	padding: 15px;
-	margin: 0px;
-	border-bottom: 2px solid #d1d1d1;
+	margin: 15px;
+	border-bottom: 1px solid #d1d1d1;
 }
 
 #qs-plots {
-	padding: 15px;
-	margin: 0px;
-	border-bottom: 2px solid #d1d1d1;
+	margin: 15px;
+	border-bottom: 1px solid #d1d1d1;
 }
 
 #qs-nations {
-	padding: 15px;
-	margin: 0px;
-	border-bottom: 2px solid #d1d1d1;
+	margin: 15px;
+	border-bottom: 1px solid #d1d1d1;
 }
 
 #qs-shops {
-	padding: 15px;
-	margin: 0px;
-	border-bottom: 2px solid #d1d1d1;
+	margin: 15px;
+	border-bottom: 1px solid #d1d1d1;
 }
 
 #qs-qr {
-	padding: 15px;
-	margin: 0px;
+	margin: 15px;
+	border-bottom: 1px solid #d1d1d1;
+}
+
+#faq {
+	margin: 15px;
+	border-top: 1px solid #d1d1d1;
+}
+
+#r-title {
+	text-align: center;
+	background: url(banners/banner.png);
+	background-position: 0px -250px;
+	background-repeat: no-repeat;
+	color: #000;
 	border-bottom: 2px solid #d1d1d1;
 }
